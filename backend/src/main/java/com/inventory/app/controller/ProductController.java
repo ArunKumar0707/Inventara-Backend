@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/products")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://shiny-stardust-7757fe.netlify.app")
 public class ProductController {
 
     private final ProductService productService;
